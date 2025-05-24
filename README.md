@@ -2,11 +2,6 @@
 
 CoreTribe is a sleek and responsive fitness club website built using **React + TypeScript**, designed to showcase classes, trainers, and facilities. With an engaging UI powered by **Framer Motion animations**, **third-party sliders**, and a modular architecture, it's ideal for gyms, fitness studios, and wellness centers.
 
-## 🚀 Live Preview
-
-> Coming soon on Vercel...
-
----
 
 ## 🎯 Features
 
