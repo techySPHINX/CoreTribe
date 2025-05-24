@@ -4,8 +4,6 @@ import ActionButton from "@/shared/ActionButton";
 import HomePageGraphic from "@/assets/HomePageGraphic.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { motion } from "framer-motion";
-import { GiMuscleUp, GiWeightLiftingUp } from "react-icons/gi";
-import { FaDumbbell } from "react-icons/fa";
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -91,7 +89,7 @@ const Home = ({ setSelectedPage }: Props) => {
           <div className="mx-auto flex w-5/6 items-center justify-center gap-16">
             {/* Viva Fitness */}
             <div className="flex flex-col items-center text-center">
-              <GiMuscleUp className="text-4xl text-viva-fitness" />
+             
               <span className="text-primary-600 mt-2 font-monoton text-lg">
                 Viva Fitness
               </span>
@@ -99,7 +97,7 @@ const Home = ({ setSelectedPage }: Props) => {
 
             {/* Monster */}
             <div className="flex flex-col items-center text-center">
-              <GiWeightLiftingUp className="text-4xl text-monster" />
+              
               <span className="text-primary-600 mt-2 font-monoton text-lg">
                 Monster
               </span>
@@ -107,7 +105,6 @@ const Home = ({ setSelectedPage }: Props) => {
 
             {/* Vixxen */}
             <div className="flex flex-col items-center text-center">
-              <FaDumbbell className="text-4xl text-vixxen" />
               <span className="text-primary-600 mt-2 font-monoton text-lg">
                 Vixxen
               </span>
